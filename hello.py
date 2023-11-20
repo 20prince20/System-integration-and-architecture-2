@@ -1,3 +1,3 @@
-#Excercise 1 "hello spus"
+#Exercise 1 "hello spus"
 
 print("hello world")
