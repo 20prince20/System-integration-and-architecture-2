@@ -1,4 +1,4 @@
-#excercise 3 odd or even
+#exercise 3 odd or even
 
 # Get user input
 user_input = input("Enter a number: ")
