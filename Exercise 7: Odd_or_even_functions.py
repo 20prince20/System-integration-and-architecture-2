@@ -1,7 +1,11 @@
-def even_or_odd():
-    value = input("What Number? ")
-    if int(value) % 2 == 0:
-        print(f"{value} is even")
+user_input = input("Enter a number: ")
+
+try:
+    number = int(user_input)
+    # Check if the number is odd or even
+    if number % 2 == 0:
+        print(f"{number} is an even number.")
     else:
-        print(f"{value} is odd")
-even_or_odd()
+        print(f"{number} is an odd number.")
+except ValueError:
+    print("Please enter a valid integer.")
