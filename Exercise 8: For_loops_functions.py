@@ -1,12 +1,16 @@
-#Exercise 7: Odd_or_even_functions.py
+#Exercise 8: For_loops_functions.py
 
-def even_or_odd():
-    # Displaying even numbers from 1 to 100 using a for loop
-for i in range(1, 101):
-    if number % 2 == 0:
-        print(i)
+def print_even_numbers():
+  for i in range(1, 100):
+      if i % 2 == 0:
+          print(i)
+def print_odd_numbers():
+  for i in range(1, 100):
+      if i % 2 != 0:
+          print(i)
 
-# Displaying odd numbers from 1 to 100 using a for loop
-for i in range(1, 101):
-        if number % 2 != 0:
-            print(i)
+value = input("Odd or Even? ")
+if value == "odd":
+  print_odd_numbers()
+elif value == "even":
+  print_even_numbers()
